@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #EFF5F5;
+}
+.main-heading{
+    background: lightcoral;
+    padding:20px;
+    color: #000000;
+    box-shadow: 0 2px 20px grey;
+}
+i{
+    padding: 5px;
+}
+.arrow{
+    float: right;
+    background-color: lightcoral;
+    padding:5px 30px;
+    margin:20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border:none
+}
+.arrow:hover{
+    border: 1px solid coral;
+    background-color: lightcoral;
+    color: #fff;
+}
+
+.main{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 90px auto;
+
+}
+
+.note{
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px lightgrey;
+    margin:20px;
+    overflow-y: scroll;
+    
+}
+.customise{
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 10px;
+    background-color: lightcoral;
+}
+.edit{
+    background-color:green;
+    color:#fff;
+    border-radius: 20px;
+    padding:5px;
+    margin:5px;
+    cursor: pointer;
+    border: none;
+}
+.delete{
+    background-color: red;
+    color:#fff;
+    border-radius: 20px;
+    padding:5px;
+    margin:5px;
+    cursor: pointer;
+    border: none;
+}
+.delete:hover{
+    background-color: #fff;
+    color: red;
+    border:1px solid grey;
+}
+.edit:hover{
+    background-color: #fff;
+    color: green;
+    border:1px solid grey;
+}
+
+textarea{
+    border:none;
+    resize: none;
+    width: 350px;
+    font-size: 20px;
+    height:1000px;
+    margin:15px ;
+    padding: 10px;
+}
+.mainarea{
+    font-size: 20px;
+    margin:15px ;
+    padding: 10px;
+    overflow: none;
+}
+
+.hidden{
+    display: none;
+}
+
+    
